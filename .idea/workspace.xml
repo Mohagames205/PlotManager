@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16630257-a11f-46e3-8868-a0cd8d9d19e5" name="Default Changelist" comment="" />
+    <list default="true" id="16630257-a11f-46e3-8868-a0cd8d9d19e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +50,9 @@
       </path>
     </expand>
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -143,6 +154,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZOvkewXzTqfGn13ReNIrK1atBI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -151,6 +163,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -160,6 +173,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\Documents\code\PlotManager" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -181,7 +199,8 @@
       <workItem from="1584726782311" duration="1165000" />
       <workItem from="1584797099398" duration="20524000" />
       <workItem from="1584881765383" duration="932000" />
-      <workItem from="1584888714974" duration="2264000" />
+      <workItem from="1584888714974" duration="7230000" />
+      <workItem from="1584959679862" duration="861000" />
     </task>
     <servers />
   </component>
@@ -197,13 +216,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1584823030082" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584798753877">
+    <state x="743" y="235" key="FileChooserDialogImpl" timestamp="1584894340866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584798753877" />
-    <state x="636" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584889165438">
+    <state x="743" y="235" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1584894340866" />
+    <state x="636" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584969456148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584889165438" />
+    <state x="636" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584969456148" />
   </component>
 </project>

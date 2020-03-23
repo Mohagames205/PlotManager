@@ -15,16 +15,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+
+
+Route::middleware('auth:api')->post('/plot', "PlotController@create");
+
+Route::middleware('auth:api')->delete('/plot/{id}', "PlotController@delete");
+
+Route::middleware('auth:api')->get('/plot', function (Request $request) {
     return $request->user();
 });
 
+Route::middleware('auth:api')->put('/plot/{id}', "PlotController@update");
 
-Route::post("/plot", "PlotController@create");
-
-Route::delete("/plot/{id}", "PlotController@delete");
-
-Route::put("/plot/{id}", "PlotController@update");
 
 
 
