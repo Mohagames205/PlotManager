@@ -13,9 +13,10 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    {{ Auth::user()->api_token ?? "Geen API token\n" }}
+                    Jouw API key is <b>{{ Auth::user()->api_token ?? "Geen API token\n" }}</b>
 
-                    You are logged in!
+
+
                 </div>
             </div>
         </div>

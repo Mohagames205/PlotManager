@@ -68,7 +68,7 @@
                 var plots = JSON.parse(this.response.replace(/&quot;/g,'"'));
                 table.rows().remove().draw();
                 plots.forEach((plot)=>{
-                    var id = plot.id;
+                    var id = plot.plot_id;
                     var plotname = plot.plot_name;
                     var plotowner = plot.plot_owner ? plot.plot_owner : "Geen eigenaar";
                     var plotmembers = JSON.parse(plot.plot_members).length > 0 ? JSON.parse(plot.plot_members).join(", ") : "Geen members";
