@@ -8,10 +8,6 @@ use Illuminate\Support\Facades\DB;
 
 class PlotController extends Controller
 {
-
-
-
-
     public function index(){
         $plots = DB::table("plots")->orderBy("plot_id")->get();
 

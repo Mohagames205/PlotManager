@@ -17,8 +17,6 @@ Route::get('/', "PlotController@index");
 
 Route::get("/plot/{id}", "PlotController@get");
 
-Route::get("/ajax", "AjaxController@run");
-
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

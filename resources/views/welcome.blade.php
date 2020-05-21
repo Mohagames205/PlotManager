@@ -61,28 +61,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script>
     var table = $('#plot_table').DataTable();
-    setInterval(function(){
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-            if (this.readyState === 4 && this.status === 200) {
-                var plots = JSON.parse(this.response.replace(/&quot;/g,'"'));
-                table.rows().remove().draw();
-                plots.forEach((plot)=>{
-                    var id = plot.plot_id;
-                    var plotname = plot.plot_name;
-                    var plotowner = plot.plot_owner ? plot.plot_owner : "Geen eigenaar";
-                    var plotmembers = JSON.parse(plot.plot_members).length > 0 ? JSON.parse(plot.plot_members).join(", ") : "Geen members";
-                    var plotsize = JSON.parse(plot.plot_size).length > 1 ? JSON.parse(plot.plot_size)[0]+" x "+ JSON.parse(plot.plot_size)[1] : "error";
-                    var plot_price = (plot.plot_price && plot.plot_price !== 0) ? plot.plot_price : "Niet te koop";
-                    table.row.add([
-                        id,plotname,plotowner,plotmembers,plotsize,plot_price
-                    ]).draw();
-                });
-            }
-        };
-        xhttp.open("GET", "/ajax", true);
-        xhttp.send();
-    },5000);
 </script>
 
 </html>
