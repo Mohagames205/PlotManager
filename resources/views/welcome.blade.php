@@ -18,6 +18,7 @@
 </head>
 <body class="container mt-3">
 <div id="content">
+    <h1> TDB PlotIndex</h1>
     <table id="plot_table" class="table table-striped">
         <thead class="thead-dark">
         <tr>
